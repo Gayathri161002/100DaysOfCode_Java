@@ -2,7 +2,7 @@
 
 public class LinkedList
 {
-    private LLnode head;
+    private static LLnode head;
     
     static class LLnode
     {
