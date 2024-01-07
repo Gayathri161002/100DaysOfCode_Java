@@ -41,13 +41,6 @@ public class DP_01KnapsackProblem
         int[] weight = {1, 2, 3, 4};
         int[] profit = {1, 4, 6, 12};
         int capacity = 8;
-        
-        int[][] A = new int[weight.length][capacity + 1];
-        for (int[] row : A)
-        {
-            Arrays.fill(row, 0);
-        }
-
         System.out.println(Knapsack(weight, profit, capacity));
     }
 }
